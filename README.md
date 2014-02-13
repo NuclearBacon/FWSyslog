@@ -1,4 +1,4 @@
-FWSyslog0.1
+FWSyslog
 ===========
 
 Syslog broadcast recorder for 2-Wire 3800HGV-B gateways.
