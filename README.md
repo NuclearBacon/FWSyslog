@@ -17,4 +17,5 @@ This service does not have an installer, however it can be set up and configured
 - Copy FWSyslog.exe and FWSyslog.exe.config to the folder the service should be run from.
 - Edit the FWSyslog.exe.config and update the L1DatabaseConnection connectionString.  Be sure to use the same password as that used in the first query above.  If you're not using the default port of 514, update that setting here.
 - Copy the batch files from \Batch to the service's installation folder, then run both (order doesn't matter.)
+- Update firewalls to allow inbound UDP connections on port <whatever port you're using> for FWSyslog.exe.
 - Start the service from the Services manager or by restarting the machine.
